@@ -28,7 +28,8 @@ public class VitamioVideo_VedioView extends Activity {
 		mVideoView = (VideoView) findViewById(R.id.surface_view);
 		
 		//String path = "http://live.gslb.letv.com/gslb?stream_id=hunan&tag=live&ext=m3u8&sign=live_tv";
-		String path = "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov";
+//		String path = "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov";
+		String path = "http://mp4.28mtv.com:9090/mp43/20299-周华健-领悟[68mtv.com].mp4";
 		
 		mVideoView.setVideoPath(path);
 		mVideoView.requestFocus();

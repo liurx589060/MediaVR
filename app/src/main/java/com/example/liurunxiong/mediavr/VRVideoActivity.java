@@ -215,7 +215,8 @@ public class VRVideoActivity extends Activity implements OnBufferingUpdateListen
 			// TODO Auto-generated method stub
 			setupGraphics();
 	        setupVertexBuffer();
-	        setupTexture();	  
+	        setupTexture();
+			playVideo();
 		}
 
 		@Override
@@ -224,7 +225,7 @@ public class VRVideoActivity extends Activity implements OnBufferingUpdateListen
 			VRVideoActivity.this.width = width;
 			VRVideoActivity.this.height = height;
 			
-			playVideo();
+//			playVideo();
 		}
 
 		@Override
